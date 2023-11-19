@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className={styles.nav} data-testid={TestId.NAV_ID}>
       <h1 data-testid={TestId.NAME}>
-        R <span>.</span> B <span>.</span>
+        I <span>.</span> B <span>.</span>
         <span>Isiaq</span>
       </h1>
       <ul>
