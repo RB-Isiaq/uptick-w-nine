@@ -10,9 +10,9 @@ describe('Projects component', () => {
     expect(ProjectsSection).toBeInTheDocument();
   });
 
-  // it('shows all my projects', () => {
-  //   render(<Projects />);
-  //   const projectsContainer = screen.getByTestId(TestId.PROJECTS_CONTAINER_ID);
-  //   expect(projectsContainer).toBeInTheDocument();
-  // });
+  it('shows all my projects', () => {
+    render(<Projects />);
+    const projectsContainer = screen.getByTestId(TestId.PROJECTS_CONTAINER_ID);
+    expect(projectsContainer).toBeInTheDocument();
+  });
 });
